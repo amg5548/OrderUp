@@ -1,34 +1,32 @@
 ﻿body {
-    background-image: url('creditCard.jpg');
-    background-size: cover;
+	background-image: url('creditCard.jpg');
+	background-size: cover;
 }
 @font-face {
 	font-family: azonixImport;
 	src: url('azonix.otf');
 }
 h1 {
-    font-family: azonixImport;
-    text-decoration: underline;
+	font-family: azonixImport;
+	text-decoration: underline;
 }
 fieldset {
-    border-color: black;
-    background-color: rgba(102,153,255, .5);
-    border-radius: 5px;
+	background-color: rgba(102,153,255, .5);
+	border-color: black;
+	border-radius: 5px;
+	width: 533px;
 }
 legend {
-    font-family: azonixImport;
+	font-family: azonixImport;
 }
 input, select {
-    border-color: black;
-    background-color: #99ccff;
-    border-radius: 5px;
+	background-color: #99ccff;
+	border-color: black;
+	border-radius: 5px;
 }
 #streetAddress, #streetAddress2 {
-    width: 99%;
+	width: 99%;
 }
 input[type="submit"], textarea {
-    border-color: black;
-    background-color: #99ccff;
-    border-radius: 5px;
-    font-weight: bold;
+	font-weight: bold;
 }
